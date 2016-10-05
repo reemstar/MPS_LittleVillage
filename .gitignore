@@ -1,0 +1,73 @@
+# -----------------------------------------------------------
+# General
+
+
+distros/*
+#MPS/*
+mps-distrib/*
+
+.ant_targets
+.DS_Store
+.metadata
+.svn
+*.synctex.gz
+*.aux
+*.log
+*.*.synctex.gz
+*.*.aux
+*.*.log
+!**/languages/*.*.log
+!**/*.log/
+
+.idea
+workspace.xml
+
+
+junitvmwatcher*.properties
+build.properties
+TEST-*.xml
+junit*.properties
+
+classes_gen
+source_gen
+source_gen.caches
+
+#-----------------------------------------------------------
+# Word
+~$*.docx
+
+#-----------------------------------------------------------
+# tests
+code/*/solutions/*/test_gen.caches/
+code/*/solutions/*/test_gen/
+
+test_gen
+test_gen.caches
+analyses_results
+result_gen
+
+# -----------------------------------------------------------
+# * project settings
+code/*/*.iws
+code/*/build.properties
+code/*/TEST*.xml
+
+code/*/solutions/*/test_gen/
+
+# -----------------------------------------------------------
+# * build
+mps/build/*/build
+mps/build/allInOne
+
+mps/build/**/*.xml
+mps/build/*/*.xml
+!mps/build/fumo-allScripts/build.xml
+artifacts/*/**
+
+# -----------------------------------------------------------
+# * rcp
+mps/fumo/rcp/*/**
+
+# -----------------------------------------------------------
+# IntelliJ debugging info
+*.iml
