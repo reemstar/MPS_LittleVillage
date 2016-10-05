@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/ExpressionContainer/ExpressionContainer.mpl" folder="expressions" />
+      <modulePath path="$PROJECT_DIR$/languages/Kreis/Eck.mpl" folder="ecken" />
+      <modulePath path="$PROJECT_DIR$/languages/SimpleExpressions/SimpleExpressions.mpl" folder="expressions" />
+      <modulePath path="$PROJECT_DIR$/languages/SimpleExpressions/runtime/SimpleExpressions.runtime.msd" folder="expressions" />
+      <modulePath path="$PROJECT_DIR$/languages/rechteck/kreis.mpl" folder="ecken" />
+      <modulePath path="$PROJECT_DIR$/solutions/solution.rechteck/tryout.gen.solution.msd" folder="ecken" />
+    </projectModules>
+  </component>
+</project>
